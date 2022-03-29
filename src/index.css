@@ -1,13 +1,1633 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100% !important;
+  background-color: #001e2c !important;
+  color: white !important;
+  width: 99%;
+}
+.data {
+  overflow: hidden;
+}
+.navbar-dark {
+  background-color: #00283a;
+  position: fixed !important;
+  height: 80px;
+  width: 100%;
+  border-radius: 20px;
+  z-index: 1;
+}
+.navigationlink {
+  color: white !important;
+  font-weight: bold;
+  padding-left: 20px !important;
+  text-decoration: none;
+}
+.navigationlink:hover {
+  color: #afb42b !important;
+}
+.slider {
+  padding: 10px;
+}
+.home {
+  width: 100% !important;
+}
+.slider-image {
+  height: 450px;
+  width: 100% !important;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-top: 70px !important;
+  object-fit: cover;
+}
+.cardinfo {
+  position: fixed;
+  top: 100px;
+  left: 60px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.otherdata {
+  position: relative;
+  top: -60px;
+  margin-left: 440px;
+}
+.card-text:last-child {
+  text-align: center;
+}
+.name {
+  text-align: left;
+  font-weight: 600;
+}
+.card-text-data {
+  margin-left: 30px;
+  margin-right: 20px;
+  text-align: end;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.card-img,
+.card-img-top {
+  border-radius: 50% !important;
+  padding: 10px;
+  height: 9rem;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.card-title {
+  font-weight: bold;
+  color: #dedee0;
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+.field {
+  text-align: center;
+}
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+.card-body {
+  width: 100% !important;
+  padding: 10px !important;
+}
+hr {
+  opacity: 1 !important;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  display: none;
+  left: 0;
+  top: 0;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+  display: inline;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+.st-label {
+  width: 11% !important;
+}
+.st-line {
+  padding-left: 0px !important;
+  width: 80% !important;
+}
+.st-num {
+  padding-left: 0px !important;
+}
+.socials {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.svg-inline--fa {
+  margin: 10px;
+}
+.svg-inline--fa:hover {
+  color: #afb42b;
+}
+.fieldss {
+  font-size: 36px;
+}
+.fieldss:hover {
+  color: #afb42b;
+  transition: 0.2s;
+  transform: rotateY(180deg);
+}
+.cont {
+  text-align: left;
+}
+.iccon {
+  font-size: 20px;
+  margin: -1px !important ;
+  margin-top: 15px !important;
+}
+.fields {
+  font-size: 30px;
+}
+.fields:hover {
+  transition: 0.2s;
+  transform: rotateY(180deg);
+}
+.story-card {
+  margin-left: 20px;
+}
+.hh {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px !important;
+}
+.dd {
+  color: rgb(167, 166, 166);
+  font-size: 13px;
+  font-weight: 400;
+  text-align: end;
+  margin-top: 10px !important;
+}
+.contactnow {
+  width: 90%;
+  background-color: #00283a;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px !important;
+  border-radius: 20px;
+  margin: 1.5rem;
+  margin-left: 1.8rem !important;
+}
+.get-in {
+  margin-left: 25px;
+}
+a {
+  color: white !important;
+}
+a > h4:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+.progress {
+  background-color: #00283a !important;
+  height: 7px !important;
+}
+.progress-bar {
+  background-color: #afb42b !important;
+  border-radius: 20px !important;
+}
+.form-control {
+  background-color: #001e2c !important;
+  width: 100%;
+  border: 2px solid black !important;
+  border-radius: 10px;
+  height: 40px;
+  color: white !important;
+  text-indent: 15px;
+}
+.inp-msg {
+  width: 100%;
+  background-color: #001e2c;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 170px;
+  color: white;
+  text-indent: 15px;
+}
+.btn {
+  width: 20%;
+  margin-top: 15px;
+  background-color: #afb42b !important;
+  color: white;
+  border-radius: 20px !important;
+}
+.btn:hover {
+  background-color: #c1c53e !important;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.myicon {
+  margin: 0px;
+  margin-left: 10px;
+}
+.myicon:hover {
+  color: black;
+}
+hr {
+  border-top: 1px dotted #000000 !important;
+  width: 85%;
+  margin-left: 30px !important;
+  margin-bottom: 20px;
+}
+.footer {
+  height: 70px;
+  background-color: #00283a;
+  color: white;
+  text-align: center;
+  align-content: center;
+  bottom: 0;
+  margin-left: 30px !important;
+  justify-content: center;
+  position: relative;
+  width: 90%;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.footer-data {
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 20px !important;
+  color: rgb(167, 166, 166);
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 40px !important;
+}
+.footer-icon {
+  margin: 0px;
+  color: rgb(167, 166, 166);
+  font-weight: bold;
+}
+.foot-d {
+  color: rgb(167, 166, 166);
+  font-weight: bold;
+  padding: 10px;
+}
+.footer-name {
+  color: #afb42b;
+}
+
+@media only screen and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+    transform: scale(1.5);
+    width: 100% !important;
+    padding: 0px;
+    margin-top: 80px !important;
+  }
+  .cardinfo {
+    position: absolute;
+    margin-top: 300px;
+    left: 0;
+    width: auto;
+    margin-right: 10px;
+  }
+  .my-card {
+    width: auto !important;
+    padding: 10px !important;
+    margin-left: 20px;
+  }
+  hr {
+    margin-left: 10% !important;
+  }
+  .card-text-data {
+    margin-left: 10%;
+    margin-right: 8px;
+  }
+  .otherdata {
+    padding-left: 0px;
+    margin-top: 590px;
+    margin-left: 30px;
+  }
+  .cont-card {
+    width: 18.1rem !important;
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -15px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 10px !important;
+    padding-left: 0px !important;
+    width: 58% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    margin-left: -10px !important;
+    /* width: auto !important; */
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .service-card {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    width: 18rem !important;
+    height: auto !important;
+  }
+  .skill-card {
+    height: auto !important;
+    padding: 0px !important;
+    margin-left: -5px !important;
+    width: 97% !important;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    width: 95% !important;
+    margin-left: 3px !important;
+    padding: 2px !important;
+  }
+  .contactnow {
+    margin-left: 0px !important;
+    width: 92% !important;
+  }
+  .get-in {
+    padding-left: 0px !important;
+    margin-left: 10px;
+  }
+  .contact-form {
+    width: 97% !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: -5px !important;
+  }
+  .hhh {
+    margin-left: 25px !important;
+    margin-bottom: 50px !important;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 170px;
+    margin: 1px;
+    padding: 0px;
+    width: 97%;
+    margin-bottom: -80px;
+    left: 0;
+    margin-left: -4px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+    width: 100% !important;
+    transform: scale(1.5);
+    padding: 0px;
+    margin-top: 70px !important;
+  }
+  .cardinfo {
+    position: absolute;
+    margin-top: 300px;
+    width: 74%;
+  }
+  .my-card {
+    width: auto !important;
+    height: auto;
+    margin-left: -30px;
+    padding: 0px !important;
+  }
+  .card-img,
+  .card-img-top {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .card-body {
+    padding: 20px !important;
+  }
+  hr {
+    margin-left: 10% !important;
+  }
+  .card-text-data {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .otherdata {
+    padding-left: 0px;
+    margin-top: 590px !important;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .cont-card {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 10px;
+    margin-left: 20px !important;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -15px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 55% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    width: 86% !important;
+  }
+  .service-card {
+    width: 85% !important;
+    height: auto !important;
+    margin-left: 25px;
+  }
+  .service-card2 {
+    margin-left: 25px !important;
+  }
+  .skill-card {
+    height: auto !important;
+    width: 86% !important;
+    margin-left: 17px !important;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    height: auto !important;
+    width: 85% !important;
+    padding: 2px !important;
+    margin-left: 25px !important;
+  }
+  .contactnow {
+    margin-left: 18px !important;
+    width: 86% !important;
+  }
+  .get-in {
+    padding-left: 25px !important;
+  }
+  .contact-form {
+    width: 88% !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: 15px !important;
+  }
+  .hhh {
+    margin-left: 25px !important;
+    margin-bottom: 50px !important;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 170px;
+    margin-left: 15px;
+    padding: 0px;
+    width: 88%;
+    margin-bottom: -80px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 425px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+    width: 100% !important;
+    transform: scale(1.5);
+    padding: 0px;
+    margin-top: 70px !important;
+  }
+  .cardinfo {
+    position: absolute;
+    margin-top: 300px;
+    width: 84%;
+    margin-left: -30px;
+  }
+  .my-card {
+    width: auto !important;
+    height: auto;
+    padding: 0px !important;
+  }
+  .card-img,
+  .card-img-top {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .card-body {
+    padding: 20px !important;
+  }
+  hr {
+    margin-left: 10% !important;
+  }
+  .card-text-data {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .otherdata {
+    padding-left: 0px;
+    margin-top: 590px !important;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .cont-card {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 10px;
+    margin-left: 20px !important;
+    margin-right: 10px;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -15px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 58% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    width: 86% !important;
+  }
+  .service-card {
+    width: 85% !important;
+    height: auto !important;
+    margin-left: 25px;
+  }
+  .service-card2 {
+    margin-left: 25px !important;
+  }
+  .skill-card {
+    height: auto !important;
+    width: 86.5% !important;
+    margin-left: 17px !important;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    height: auto !important;
+    width: 85% !important;
+    padding: 2px !important;
+    margin-left: 25px !important;
+  }
+  .contactnow {
+    margin-left: 18px !important;
+    width: 86% !important;
+  }
+  .get-in {
+    padding-left: 25px !important;
+  }
+  .contact-form {
+    width: 87% !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: 15px !important;
+  }
+  .hhh {
+    margin-left: 25px !important;
+    margin-bottom: 50px !important;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 170px;
+    margin-left: 15px;
+    padding: 0px;
+    width: 87%;
+    margin-bottom: -80px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 426px) and (max-device-width: 590px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+    width: 100% !important;
+    transform: scale(1.5);
+    padding: 0px;
+    margin-top: 70px !important;
+  }
+  .cardinfo {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -30px;
+    width: 86%;
+  }
+  .my-card {
+    width: auto !important;
+    height: auto !important;
+    padding: 0px !important;
+  }
+  .card-img,
+  .card-img-top {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .card-body {
+    padding: 20px !important;
+  }
+  .card-text-data {
+    margin-right: 8%;
+  }
+  .otherdata {
+    padding-left: 0px;
+    margin-top: 590px !important;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .cont-card {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 10px;
+    margin-left: 20px !important;
+    margin-right: 10px;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -15px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 67% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    width: auto !important;
+    margin-right: 40px;
+  }
+  .service-card {
+    width: auto !important;
+    height: auto !important;
+    margin-left: 25px;
+    margin-right: 40px;
+  }
+  .service-card2 {
+    margin-left: 25px !important;
+    margin-right: 40px;
+  }
+  .skill-card {
+    height: auto !important;
+    width: auto !important;
+    margin-left: 17px !important;
+    margin-right: 40px;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    height: auto !important;
+    width: auto !important;
+    padding: 2px !important;
+    margin-left: 25px !important;
+    margin-right: 40px;
+  }
+  .contactnow {
+    margin-left: 18px !important;
+    width: auto !important;
+    margin-right: 40px !important;
+  }
+  .get-in {
+    padding-left: 25px !important;
+  }
+  .contact-form {
+    width: auto !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: 15px !important;
+    margin-right: 40px;
+  }
+  .hhh {
+    margin-left: 25px !important;
+    margin-bottom: 50px !important;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 170px;
+    margin-left: 15px;
+    padding: 0px;
+    width: autp;
+    margin-right: 40px;
+    margin-bottom: -80px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 591px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+    width: 100% !important;
+    transform: scale(1.5);
+    padding: 0px;
+    margin-top: 70px !important;
+  }
+  .cardinfo {
+    position: absolute;
+    margin-top: 300px;
+    width: 89%;
+    margin-left: -25px;
+  }
+  .my-card {
+    width: auto !important;
+    height: auto !important;
+    padding: 20px !important;
+  }
+  .card-img,
+  .card-img-top {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+  .my-card.card-body {
+    padding: 10px !important;
+  }
+  hr {
+    margin-left: 6% !important;
+  }
+  .card-text-data {
+    margin-right: 8%;
+  }
+  .otherdata {
+    padding-left: 0px;
+    margin-top: 620px !important;
+    margin-left: 15px;
+    width: 100%;
+  }
+  .cont-card {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 10px;
+    margin-left: 20px !important;
+    margin-right: 10px;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -15px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 74% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    width: auto !important;
+    margin-right: 40px;
+  }
+  .service-card {
+    width: auto !important;
+    height: auto !important;
+    margin-left: 25px;
+    margin-right: 40px;
+  }
+  .service-card2 {
+    margin-left: 25px !important;
+    margin-right: 40px;
+  }
+  .skill-card {
+    height: auto !important;
+    width: auto !important;
+    margin-left: 17px !important;
+    margin-right: 40px;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    height: auto !important;
+    width: auto !important;
+    padding: 2px !important;
+    margin-left: 25px !important;
+    margin-right: 40px;
+  }
+  .contactnow {
+    margin-left: 18px !important;
+    width: auto !important;
+    margin-right: 40px !important;
+  }
+  .get-in {
+    padding-left: 30px !important;
+  }
+  .contact-form {
+    width: auto !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: 15px !important;
+    margin-right: 40px;
+  }
+  .hhh {
+    margin-left: 25px !important;
+    margin-bottom: 50px !important;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 120px;
+    margin-left: 15px;
+    padding: 0px;
+    width: auto;
+    margin-right: 40px;
+    margin-bottom: -80px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+    width: 100% !important;
+    transform: scale(1.5);
+    padding: 0px;
+    margin-top: 70px !important;
+  }
+  .cardinfo {
+    position: absolute;
+    margin-top: 300px;
+    width: 91%;
+    margin-left: -25px;
+  }
+  .my-card {
+    width: auto !important;
+    height: auto !important;
+    padding: 20px !important;
+  }
+  .card-img,
+  .card-img-top {
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+  .my-card.card-body {
+    padding: 10px !important;
+  }
+  hr {
+    margin-left: 6% !important;
+  }
+  .card-text-data {
+    margin-right: 8%;
+  }
+  .otherdata {
+    padding-left: 0px;
+    margin-top: 620px !important;
+    margin-left: 15px;
+    width: 100%;
+  }
+  .cont-card {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 10px;
+    margin-left: 20px !important;
+    margin-right: 10px;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -15px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 80% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    width: auto !important;
+    margin-right: 40px;
+  }
+  .service-card {
+    width: auto !important;
+    height: auto !important;
+    margin-left: 25px;
+    margin-right: 40px;
+  }
+  .service-card2 {
+    margin-left: 25px !important;
+    margin-right: 40px;
+  }
+  .skill-card {
+    height: auto !important;
+    width: auto !important;
+    margin-left: 17px !important;
+    margin-right: -20px;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    height: auto !important;
+    width: auto !important;
+    padding: 2px !important;
+    margin-left: 25px !important;
+    margin-right: 40px;
+  }
+  .contactnow {
+    margin-left: 18px !important;
+    width: auto !important;
+    margin-right: 40px !important;
+  }
+  .get-in {
+    padding-left: 30px !important;
+  }
+  .contact-form {
+    width: auto !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: 15px !important;
+    margin-right: 40px;
+  }
+  .hhh {
+    margin-left: 25px !important;
+    margin-bottom: 50px !important;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 120px;
+    margin-left: 15px;
+    padding: 0px;
+    width: auto;
+    margin-right: 40px;
+    margin-bottom: -80px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+  }
+  .cardinfo {
+    position: fixed;
+  }
+  .my-card {
+    width: auto !important;
+    height: auto !important;
+    margin-left: 20px;
+    padding: 10px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .card-img,
+  .card-img-top {
+    width: auto !important;
+    padding-top: 20px;
+  }
+  .card-body {
+    padding: 10px !important;
+  }
+  hr {
+    margin-left: 8% !important;
+  }
+  .card-text-data {
+    margin-left: 8%;
+    margin-right: 7%;
+  }
+  .otherdata {
+    position: absolute;
+    margin-top: 470px !important;
+    margin-left: 400px;
+  }
+  .cont-card {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 10px;
+    margin-left: 20px !important;
+    margin-right: 10px;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -12px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 55% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    width: auto !important;
+    margin-left: 36px;
+    margin-right: 40px;
+  }
+  .service-card {
+    width: auto !important;
+    height: auto !important;
+    padding-bottom: 10px;
+    margin-left: 45px;
+    margin-right: 40px;
+  }
+  .service-card2 {
+    margin-left: 45px !important;
+    margin-right: 40px;
+  }
+  .skill-card {
+    height: auto !important;
+    width: auto !important;
+    margin-left: 35px !important;
+    margin-right: 40px;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    height: auto !important;
+    width: auto !important;
+    padding: 2px !important;
+    margin-left: 45px !important;
+    margin-right: 40px;
+  }
+  .contactnow {
+    margin-left: 38px !important;
+    width: auto !important;
+    margin-right: 40px !important;
+  }
+  .get-in {
+    padding-left: 53px !important;
+  }
+  .contact-form {
+    width: auto !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: 35px !important;
+    margin-right: 40px;
+  }
+  .hhh {
+    margin-left: 40px !important;
+    margin-bottom: 50px !important;
+    width: auto;
+    margin-right: 40px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 180px;
+    margin-left: 35px !important;
+    width: auto !important;
+    margin-bottom: -80px !important;
+    margin-right: 40px !important;
+    padding: 0px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+  }
+  .cardinfo {
+    position: fixed;
+  }
+  .my-card {
+    width: auto !important;
+    height: auto !important;
+    margin-left: 20px;
+    padding: 10px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .card-img,
+  .card-img-top {
+    width: auto !important;
+    padding-top: 20px;
+  }
+  .card-body {
+    padding: 10px !important;
+  }
+  hr {
+    margin-left: 8% !important;
+  }
+  .card-text-data {
+    margin-left: 8%;
+    margin-right: 7%;
+  }
+  .otherdata {
+    position: absolute;
+    margin-top: 470px !important;
+    margin-left: 440px;
+  }
+  .cont-card {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 10px;
+    margin-left: 20px !important;
+    margin-right: 10px;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -12px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 75% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    width: auto !important;
+    margin-left: 36px;
+    margin-right: 40px;
+  }
+  .service-card {
+    width: auto !important;
+    height: auto !important;
+    padding-bottom: 10px;
+    margin-left: 45px;
+    margin-right: 40px;
+  }
+  .service-card2 {
+    margin-left: 45px !important;
+    margin-right: 40px;
+  }
+  .skill-card {
+    height: auto !important;
+    width: auto !important;
+    margin-left: 35px !important;
+    margin-right: 40px;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    height: auto !important;
+    width: auto !important;
+    padding: 2px !important;
+    margin-left: 45px !important;
+    margin-right: 40px;
+  }
+  .contactnow {
+    margin-left: 38px !important;
+    width: auto !important;
+    margin-right: 40px !important;
+  }
+  .get-in {
+    padding-left: 53px !important;
+  }
+  .contact-form {
+    width: auto !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: 35px !important;
+    margin-right: 40px;
+  }
+  .hhh {
+    margin-left: 40px !important;
+    margin-bottom: 50px !important;
+    width: auto !important;
+    margin-right: 40px !important;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 180px;
+    margin-left: 35px !important;
+    width: auto !important;
+    margin-bottom: -80px !important;
+    margin-right: 40px !important;
+    padding: 0px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1199px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navbar-dark {
+    border-radius: 0px;
+  }
+  .slider-image {
+    height: 300px !important;
+  }
+  .cardinfo {
+    position: fixed;
+  }
+  .my-card {
+    width: auto !important;
+    height: auto !important;
+    margin-left: 20px;
+    padding: 10px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .card-img,
+  .card-img-top {
+    width: auto !important;
+    padding-top: 20px;
+  }
+  .card-body {
+    padding: 10px !important;
+  }
+  hr {
+    margin-left: 8% !important;
+  }
+  .card-text-data {
+    margin-left: 8%;
+    margin-right: 7%;
+  }
+  .otherdata {
+    position: absolute;
+    margin-top: 470px !important;
+    margin-left: 440px;
+  }
+  .cont-card {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 10px;
+    margin-left: 20px !important;
+    margin-right: 10px;
+  }
+  .head-start {
+    width: 100%;
+    margin-left: -12px !important;
+  }
+  .st-label {
+    width: auto !important;
+    font-size: 15px;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+  }
+  .st-line {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 75% !important;
+  }
+  .st-num {
+    padding-left: 8px !important;
+    width: auto !important;
+  }
+  .ml-10 {
+    margin-left: -20px !important;
+  }
+  .story-card {
+    height: auto !important;
+    padding: 10px !important;
+    width: auto !important;
+    margin-left: 36px;
+    margin-right: 40px;
+  }
+  .service-card {
+    width: auto !important;
+    height: auto !important;
+    padding-bottom: 10px;
+    margin-left: 45px;
+    margin-right: 40px;
+  }
+  .service-card2 {
+    margin-left: 45px !important;
+    margin-right: 40px;
+  }
+  .skill-card {
+    height: auto !important;
+    width: auto !important;
+    margin-left: 35px !important;
+    margin-right: 40px;
+  }
+  .skill-name {
+    text-align: left !important;
+  }
+  .skill-n {
+    text-align: end !important;
+  }
+  .contact-card {
+    height: auto !important;
+    width: auto !important;
+    padding: 2px !important;
+    margin-left: 45px !important;
+    margin-right: 40px;
+  }
+  .contactnow {
+    margin-left: 38px !important;
+    width: auto !important;
+    margin-right: 40px !important;
+  }
+  .get-in {
+    padding-left: 53px !important;
+  }
+  .contact-form {
+    width: auto !important;
+    padding: 0px !important;
+    height: 26rem !important;
+    margin-left: 35px !important;
+    margin-right: 40px;
+  }
+  .hhh {
+    margin-left: 40px !important;
+    margin-bottom: 50px !important;
+    width: auto !important;
+    margin-right: 40px !important;
+  }
+  .btn {
+    width: 100%;
+  }
+  .footer {
+    height: 180px;
+    margin-left: 35px !important;
+    width: auto !important;
+    margin-bottom: -80px !important;
+    margin-right: 40px !important;
+    padding: 0px;
+  }
+  .footer-data {
+    margin: 20px !important;
+    padding-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-icon {
+    margin-right: 10px;
+  }
+  .foot-d {
+    padding: 0px;
+    width: 100% !important;
+  }
 }
